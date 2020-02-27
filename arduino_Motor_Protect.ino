@@ -15,7 +15,7 @@
 
 //#define USE_PID  //如果还没有接码盘，需要注释掉这个
 
-#if (ARDUINO >= 100)
+#if (ARDUINO   >= 100)
  #include <Arduino.h>
 #else
  #include <WProgram.h>
